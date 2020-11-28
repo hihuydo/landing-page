@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+
+/* Utilities */
+* { padding: 0; margin: 0; }
+
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  position: relative;
+}
+
+h1, h2, h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #FF6348;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1em;
+  margin-bottom: 12px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center
+}
+
+section.how-it-works {
+  margin-top: 40px;
+}
+
+footer {
+  border-top: 2px solid #FF6348;
+  background-color: #FFD9CC;
+/*  height: 40px;*/
+  padding: 14px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+li a {
+  color: #FF6348;
+  margin-right: 8px;
+}
+
+li a:hover {
+  opacity: 0.5;
+}
+
+footer p {
+  font-size: 12px;
+}
