@@ -16,6 +16,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   position: relative;
+  overflow-x: hidden;
 }
 
 h1, h2, h3 {
@@ -52,10 +53,12 @@ a {
 }
 
 section.how-it-works {
+  width: 100vw;
   margin-top: 40px;
 }
 
 footer {
+  width: 100vw;
   border-top: 2px solid #FF6348;
   background-color: #FFD9CC;
 /*  height: 40px;*/
